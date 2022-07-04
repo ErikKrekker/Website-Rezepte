@@ -1,0 +1,158 @@
+<html>
+<head>
+        <!DOCTYPE html>
+        <meta charset="utf8">
+        <title> Produkte </title>
+        <link rel="Stylesheet" href="KategorienProdukt.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="Startseite.html"><img id="bird" src="Bilder/Logo.png"></img></a></div>
+        <div> 
+        <nav class="menu">
+                <div id="nav1"><a id="nav1a" href="Startseite.html">Fresh N Juicy</a></div>
+                <div id="nav2"><a href="ProdukteKategorien.html">Produkte</a> </div>
+                <div id="nav3"><a href="RezeptKategorien.html" >Rezepte</a></div>
+                <div id="nav4"></div>
+                <div id="nav5"><input id="suchen" type="search" placeholder="Suche"></input></div> 
+                <div id="nav6"><a href="Login.html">Profil</a></div>
+                <div id="nav7"><a href="#">Warenkorb</a></div> 
+        </nav>
+        </div>
+
+    </header>
+
+		<div class="main-container">
+			<div class="filter-container">	
+				<div class="category-head">
+						<h3 id="kategorie">Kategorien</h3>
+					<ul>
+						<div class="category-title active" id="alles">
+							<li>Alles</li>
+						</div>
+						<div class="category-title" id="pulver">
+							<li>Pulver</li>
+						</div>
+						<div class="category-title" id="zuckerfrei">
+							<li>Zuckerfrei</li>
+						</div>
+						<div class="category-title" id="nuesse">
+							<li>Nüsse</li>
+						</div>
+						<div class="category-title" id="fertigtueten">
+							<li>Fertigtüten</li>
+						</div>
+						<div class="category-title" id="saefte">
+							<li>Säfte</li>
+						</div>
+					</ul>
+				</div>
+				
+				<div class="rezepte">
+				
+					<div class="rezepte-main-container" >
+					<div class="alles zuckerfrei" id="isLink" onclick="geheProdukt1()">
+						<div id="edibles">
+							<div class="rezepte-img" >
+								<img src="Bilder/cookies1.jpg" class="picture">
+							</div>	 
+						</div>
+								<div class="rezepte-content">
+								<h3> Zuckerfreie Kekse</h3>
+								<p> Zuckerfrei süß und Köstlich. Unsere Kekse </p>
+								</div>
+					</div>
+				
+					<div class="alles pulver" id="isLink" onclick="geheProdukt2()">
+						<div id="edibles">
+							<div class="rezepte-img" >
+								<img src="Bilder/puder1.jpg" class="picture">
+							</div>	 
+						</div>
+								<div class="rezepte-content">
+								<h3> Vitamin Spicy Pulver</h3>
+								<p> Halten Sie ihren Körper Fit und Spicy!</p>
+								</div>
+					</div>
+				
+					<div class="alles zuckerfrei">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/cookies2.jpg" class="picture" >
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Krisb zuckerfreie Kekse</h3>
+								<p> Kaufen Sie die Zuckerfreien Kekse! Mit ihren speziellen Crunch für ein knackigen Tag.</p>
+								</div>
+					</div>	
+					
+					<div class="alles nuesse">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/nuts2.jpg" class="picture" >
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Haselmüsse</h3>
+								<p> Sie dachten Sie haben genug Nüsse? Dies scheint nicht so. Unsere Haselnüsse geben ihnen genau die Anzahl an Nüssen die sie brauchen</p>
+								</div>
+					</div>	
+					
+					<div class="alles fertigtueten">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/sauce1.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Dip Soße</h3>
+								<p>Schnell gesunde Soße für den Gesunden Snack nebenbei. Dippen Sie Ihre Nahrung ab jetzt auch in gesundes.</p>
+								</div>
+					</div>		
+									
+					<div class="alles saefte">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/smoothie2.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Fresh N Juicy Saft</h3>
+								<p> erfrischender grüner Saft für ein frisches Erlebnis. Das Produkt zu unserem Rezept!</p>
+								</div>
+					</div>	
+					
+					<div class="alles nuesse">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/nuts1.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Leckere Nüsse</h3>
+								<p> Nährstoffreiche kleinkost von unseren Experten bis zur Perfektion entwickelt</p>
+								</div>
+					</div>	
+					
+					</div>
+				
+				</div>
+			</div>	
+		</div>				
+			
+        <footer>
+            <div id="foo">
+                <div id="foo1"><a href="#">Kontakt</a></div>
+                <div id="foo2"><a href="#">Impressum</a></div>
+                <div id="foo3"><a href="#">Über uns</a></div>
+                <div id="foo4"><a href="#">Hilfe</a></div>
+                <div id="foo5"><a href="#">Einstellungen</a></div>
+            </div>
+        </footer> 
+		<script src="Kategorien.js"> </script>
+</body>
+
+</html>

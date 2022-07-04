@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+        <meta charset="utf8">
+        <title> Produkt </title>
+        <link rel="Stylesheet" href="Login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+		<script src="Login.js"></script>
+		<noscript>Your browser does not support JavaScript</noscript>
+    </head>
+    <body>
+    <header>
+        <div class="logo"><a href="Startseite.html"><img id="bird" src="Bilder/Logo.png"></img></a></div>
+        <div> 
+        <nav class="menu">
+                <div id="nav1"><a id="nav1a" href="Startseite.html">Fresh N Juicy</a></div>
+                <div id="nav2"><a href="Produkte.html">Produkte</a> </div>
+                <div id="nav3"><a href="RezeptKategorien.html">Rezepte</a></div>
+                <div id="nav4"></div>
+                <div id="nav5"><input id="suchen" type="search" placeholder="Suche"></input></div> 
+                <div id="nav6"><a href="Login.html">Profil</a></div>
+                <div id="nav7"><a href="#">Warenkorb</a></div> 
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div id="Background">
+			<h1>Login</h1>
+			<form class="form">
+				<div id="Login">
+					<div class="formRow">
+						<div class="field">E-Mail :</div>
+						<input id="email" class="input" type="email" 
+							name="email" placeholder="E-Mail" maxlength="50" required>
+					</div>
+					<div class="formRow">
+						<div class="field">Passwort :</div>
+						<input id="passwort" class="input" type="password" 
+							name="passwort" placeholder="Passwort" maxlength="30" required>
+					</div>
+					<div class="formRow">
+						<input class="loginButton" type="submit" value="Einloggen">
+					</div>
+				</div>
+			</form>
+			<div>
+				<h6>Noch keinen Account?</h6>
+				<div class="registrieren">
+					<input class="loginButton" type="button" value="Registrieren" onClick="goRegistrate()">
+				</div>
+			<div>
+        </div>
+        
+        <footer>
+            <div id="foo">
+                <div id="foo1"><a href="#">Kontakt</a></div>
+                <div id="foo2"><a href="#">Impressum</a></div>
+                <div id="foo3"><a href="#">Über uns</a></div>
+                <div id="foo4"><a href="#">Hilfe</a></div>
+                <div id="foo5"><a href="#">Einstellungen</a></div>
+            </div>
+        </footer> 
+    </main>
+</body>
+</html>

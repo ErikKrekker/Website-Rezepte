@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <!DOCTYPE html>
+        <meta charset="utf8">
+        <title> Produkt </title>
+        <link rel="Stylesheet" href="Startseite.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+		<script src="Kategorien.js"></script>
+		<noscript>Your browser does not support JavaScript</noscript>
+    </head>
+
+    <body>
+    <header>
+        <div class="logo"><a href="Startseite.html"><img id="bird" src="Bilder/Logo.png"></img></a></div>
+        <div> 
+        	<nav class="menu">
+                <div id="nav1"><a id="nav1a" href="Startseite.html">Fresh N Juicy</a></div>
+                <div id="nav2"><a href="ProdukteKategorien.html">Produkte</a> </div>
+                <div id="nav3"><a href="RezeptKategorien.html">Rezepte</a></div>
+                <div id="nav4"></div>
+                <div id="nav5"><input id="suchen" type="search" placeholder="Suche"></input></div> 
+                <div id="nav6"><a href="Login.html">Profil</a></div>
+                <div id="nav7"><a href="#">Warenkorb</a></div> 
+        	</nav>
+        </div>  
+    </header>
+	<!--Quelle https://stackoverflow.com/questions/69210788/css-alternate-row-order-for-displaytable -->
+    <main>
+		<div id="Startseite">
+			<ul>
+				<li>
+					<span class="item-pic" id="ip1" onclick="geheRezept1()"><img src="Bilder/herzhaft1.jpg" id="pic1"></a></span>
+					<span class="item-text" id="it1" onclick="geheRezept1()">
+						<span class="item-name">Rezept des Tages</span>
+						<span class="item-details">Gemüseauflauf</span>
+					</span>
+					</a>
+				</li>
+				<li><span class="item-pic" id="ip2" onclick="geheRezept2()"><img src="Bilder/smoothie2.jpg" id="pic2"></a></span>
+					<span class="item-text" id="it2" onclick="geheRezept2()">
+						<span class="item-name">Gesunde Erfrischung</span>
+						<span class="item-details">Grüner Smoothie</span>
+					</span>
+					</a>
+				</li>
+				<li><span class="item-pic" id="ip3" onclick="geheProdukt1()"><img src="Bilder/cookies1.jpg" id="pic3"></a></span>
+					<span class="item-text" id="it3" onclick="geheProdukt1()">
+						<span class="item-name">Trotz Diät mal auch was schnucken</span>
+						<span class="item-details">Zuckerfreie Kekse</span>
+					</span>
+				</li>
+				<li><span class="item-pic" id="ip4" onclick="geheProdukt2()"><img src="Bilder/puder1.jpg" id="pic4"></a></span>
+					<span class="item-text" id="it4" onclick="geheProdukt2()">
+						<span class="item-name">Auch mal scharf</span>
+						<span class="item-details">Vitamin Spicy Pulver</span>
+					</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+        
+        <footer>
+            <div id="foo">
+                <div id="foo1"><a href="#">Kontakt</a></div>
+                <div id="foo2"><a href="#">Impressum</a></div>
+                <div id="foo3"><a href="#">Über uns</a></div>
+                <div id="foo4"><a href="#">Hilfe</a></div>
+                <div id="foo5"><a href="#">Einstellungen</a></div>
+            </div>
+        </footer> 
+    </main>
+</body>
+</html>

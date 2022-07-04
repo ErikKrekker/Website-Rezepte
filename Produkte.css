@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root{
+    --mainColor: #4fccac;
+    --secColor: #d78702;
+    --thirdColor: #dcf6ed;
+    background-color: var(--thirdColor);
+}
+/* 'Indie Flower', cursive; */
+/* 'Playfair Display', serif; */
+body{
+    overflow: hidden;
+    background-image: url("Bilder/a1.jpg");
+    background-repeat: no-repeat;
+    margin:0;
+}
+
+.menu{
+   background-color: var(--mainColor);
+   list-style-type: none;
+   font-weight: bold; 
+   position: fixed;
+   top: 15%;
+   left:0px;
+   height: 10%;
+   width: 100%;
+   z-index:100;
+   display: table;
+   table-layout: fixed;
+   font-size: 2.6vh;
+}
+
+.menu div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu div a{
+    font-family:'Indie Flower', cursive;
+    font-size: 4vh;
+    text-decoration: none;
+    color: var(--thirdColor)
+}
+
+.logo{
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    display: flex;
+    top: calc(20% - 122.5px);
+    left:calc(50% - 122.5px);  
+}
+
+#bird{
+    height: 245px;
+    position: absolute;
+    padding: 0;
+    clip-path: circle(30.5% at 48% 50%);
+}
+
+#foo{
+    background-color: var(--mainColor);
+    list-style-type: none;
+    font-weight: bold; 
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 6%;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    font-size: 1.8vh;
+}
+
+#foo div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#foo2{
+    border-left: 3px solid;
+    border-image: 
+    linear-gradient(
+      to top, 
+      var(--thirdColor), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#foo3{
+    border-left: 3px solid;
+    border-image: 
+    linear-gradient(
+      to top, 
+      var(--thirdColor), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#foo4{
+    border-left: 3px solid;
+    border-image: 
+    linear-gradient(
+      to top, 
+      var(--thirdColor), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#foo5{
+    border-left: 3px solid;
+    border-image: 
+    linear-gradient(
+      to top, 
+      var(--thirdColor), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#foo div a{
+    text-decoration: none;
+    color:black;
+}
+
+#suchen{
+    background-color: var(--thirdColor);
+    border-radius: 50px;
+    border-color: var(--secColor);
+    width: 80%;
+    height: 30%;
+    font-size: 1.5vh;
+}
+
+
+body{
+    overflow: hidden;
+    background-image: url("Bilder/a1.jpg");
+    background-repeat: no-repeat;
+    margin:0;
+}
+#Produkt{
+    overflow: hidden;
+    height: 75%;
+    position: absolute;
+    top: 25%;
+}
+
+#Bilder{
+    background-color: var(--thirdColor);
+    width: 30%;
+    height: 92%;
+    overflow:hidden;
+    float: left;
+    vertical-align: top;
+}
+
+.bild{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    border-radius: 20%;
+}
+
+.mainBild{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 3%;
+    margin-top: 20%;
+    border-radius: 20%;
+}
+
+#Text{
+    width: 50%;
+    height: 92%;
+    float: left;
+    vertical-align: top;
+    background-color: var(--thirdColor);
+}
+
+#Titel{
+    height: 20%;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2vh;
+    align-items: end;
+    padding-left: 5%;
+    overflow-wrap:break-word;
+}
+
+/*https://css-tricks.com/gradient-borders-in-css/*/
+#Beschreibung{
+    display: block;
+    width: 90%;
+    height: 70%;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      var(--mainColor), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    overflow-y: auto;
+	font-size: 2vh;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: transparent;
+}
+
+/*Navigation an der rechten Seite*/
+#Navigation{
+    background-color: var(--thirdColor);
+    font-family: 'Indie Flower', cursive;
+    width: 20%;
+    height: 92%;
+    float: left;
+    vertical-align: top;
+    text-align: center;
+}
+
+#NavigationTop{
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+#PreisContainer{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#Preis{
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 2.6vh;
+}
+
+#Zahl{
+    padding-right: 5px;
+    font-size: 2.6vh;
+}
+
+#Anzahl{
+    padding-right: 5px;
+    font-size: 1.8vh;
+}
+
+#AnzahlContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#AnzahlContainer input{
+    width: 30px;
+    padding: 3px;
+}
+
+
+#Merkbuttons{
+    display: flex;
+    justify-content: center;
+}
+
+#Merkbuttons a{
+    text-decoration: none;
+    color: black;
+}
+
+#Stck input{
+    width: 50px;
+}
+
+.but{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.RezeptLink{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#L1{
+    background-image: url("Bilder/l1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: 150px;
+    
+}
+#L2{
+    background-image: url("Bilder/l1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: 150px;
+}
+
+#Rezepte{
+    position: relative;
+    top: 25%;
+}
+
+@media (hover :hover){
+
+    #Merkbuttons a:hover{
+        text-decoration:underline;
+        color: black;
+    }
+    
+    #nav1:hover{
+        background-color: var(--thirdColor);
+        border-top: solid 10px var(--mainColor);
+        border-right: solid 10px var(--mainColor);
+        border-top-right-radius: 50px;
+    }
+    
+    #nav1:hover a{
+        color: var(--secColor)
+    }
+
+    #nav2{
+        background-color: var(--thirdColor);
+        border-top: solid 10px var(--mainColor);
+        border-left: solid 10px var(--mainColor);
+        border-right: solid 10px var(--mainColor);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    #nav2 a{
+    color: var(--secColor);
+    }
+    
+    #nav3:hover{
+        background-color: var(--thirdColor);
+        border-top: solid 10px var(--mainColor);
+        border-left: solid 10px var(--mainColor);
+        border-right: solid 10px var(--mainColor);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    
+    #nav3:hover a{
+        color: var(--secColor)
+    }
+    
+    #nav6:hover{
+        background-color: var(--thirdColor);
+        border-top: solid 10px var(--mainColor);
+        border-left: solid 10px var(--mainColor);
+        border-right: solid 10px var(--mainColor);
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    
+    #nav6:hover a{
+        color: var(--secColor)
+    }
+    
+    #nav7:hover{
+        background-color: var(--thirdColor);
+        border-top: solid 10px var(--mainColor);
+        border-left: solid 10px var(--mainColor);
+        border-top-left-radius: 50px;
+    }
+    
+    #nav7:hover a{
+        color: var(--secColor)
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: none;
+    }
+
+    .logo{
+        position: absolute;
+        z-index: 200;
+        width: 100%;
+        left:calc(0%);
+        top: -5%;
+        
+    }
+
+    #bird{
+        height: 200px;
+        position: absolute;
+        padding: 0;
+        clip-path: circle(30.5% at 48% 50%);
+        left: -8%;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        top: 0px;
+        right: 5%;
+    }
+
+    .menu a{
+        font-size: 2.6vh;
+        padding: 5px;
+    }
+
+    .menu div a{
+        font-size: 3vh;
+    }
+
+    #nav1{
+        display: none;
+    }
+    
+    #nav3{
+        
+        border-top: solid 0px var(--mainColor);
+        border-left: solid 0px var(--mainColor);
+        border-right: solid 0px var(--mainColor);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    
+    #nav2{
+        background-color: var(--mainColor);
+        border-top: solid 0px var(--mainColor);
+        border-left: solid 0px var(--mainColor);
+        border-right: solid 0px var(--mainColor);
+    }
+
+    #nav2 a{
+    color: var(--secColor);
+    }
+
+
+    #nav7{
+        padding-right: 10px;
+    }
+
+    #suchen{
+        display: none;
+    }
+
+    #Produkt{
+        overflow: hidden;
+        position: absolute;
+        display: block;
+        flex-direction: column;
+        overflow:auto;
+        top: 25%;
+    }
+    
+    #Bilder{
+        background-color: var(--thirdColor);
+        width: 100%;
+        height: 50%;
+        overflow: auto;
+        vertical-align: top;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mainBild{
+        display: flex;
+        width: 75%;
+        margin-top: 5%;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .bild{
+        display: flex;
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .bild:last-of-type{
+        padding-right: 5%;
+    }
+    #Text{
+        display: block;
+        width: 100%;
+    }
+    #Navigation{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+
+    #NavigationTop{
+        height: auto;
+    }
+
+    #Titel{
+        font-size: 2.5vh;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #Beschreibung{
+        font-size: 1.8vh;
+    }
+
+    ::-webkit-scrollbar{ width: 0px;}
+}
+
+

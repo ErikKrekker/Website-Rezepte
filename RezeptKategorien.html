@@ -1,0 +1,185 @@
+<html>
+<head>
+        <!DOCTYPE html>
+        <meta charset="utf8">
+        <title> Rezepte </title>
+        <link rel="Stylesheet" href="KategorienRezept.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="Startseite.html"><img id="bird" src="Bilder/Logo.png"></img></a></div>
+        <div> 
+        <nav class="menu">
+                <div id="nav1"><a id="nav1a" href="Startseite.html">Fresh N Juicy</a></div>
+                <div id="nav2"><a href="ProdukteKategorien.html">Produkte</a> </div>
+                <div id="nav3"><a href="RezeptKategorien.html" >Rezepte</a></div>
+                <div id="nav4"></div>
+                <div id="nav5"><input id="suchen" type="search" placeholder="Suche"></input></div> 
+                <div id="nav6"><a href="Login.html">Profil</a></div>
+                <div id="nav7"><a href="#">Warenkorb</a></div> 
+        </nav>
+        </div>
+
+    </header>
+
+		<div class="main-container">
+			<div class="filter-container">	
+				<div class="category-head">
+						<h3 id="kategorie">Kategorien</h3>
+					<ul>
+						<div class="category-title active" id="alles">
+							<li>Alles</li>
+						</div>
+						<div class="category-title" id="herzhaft">
+							<li>Herzhaft</li>
+						</div>
+						<div class="category-title" id="backwaren">
+							<li>Backwaren</li>
+						</div>
+						<div class="category-title" id="snacks">
+							<li>Snacks</li>
+						</div>
+						<div class="category-title" id="smoothies">
+							<li>Smoothies</li>
+						</div>
+						<div class="category-title" id="cocktail">
+							<li>Cocktails</li>
+						</div>
+					</ul>
+				</div>
+				
+				<div class="rezepte">
+				
+					<div class="rezepte-main-container" >
+					<div class="alles herzhaft" id="isLink" onclick="geheRezept1()">
+						<div id="edibles">
+							<div class="rezepte-img" >
+								<img src="Bilder/herzhaft1.jpg" class="picture">
+							</div>	 
+						</div>
+								<div class="rezepte-content">
+								<h3> Gemüseauflauf</h3>
+								<p> Leckeren Auflauf zubereiten unter einer Stunde. </p>
+								</div>
+					</div>
+										
+					<div class="alles smoothies" id="isLink" onclick="geheRezept2()">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/smoothie2.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3>Grüner Smoothie</h3>
+								<p> Der Vitaminkick der ein am Tag fehlt. Mit Gesunden Zutaten! </p>
+								</div>
+					</div>	
+					
+					<div class="alles herzhaft">
+						<div id="edibles">
+							<div class="rezepte-img" >
+								<img src="Bilder/herzhaft2.jpg" class="picture">
+							</div>	 
+						</div>
+								<div class="rezepte-content">
+								<h3> Herzhaft</h3>
+								<p> Herzhaftes Gericht für die ganze Familie! Mit dieser Haushaltskost überzeugen sie jeden. Innerhalb von nur wenigen Stunden!</p>
+								</div>
+					</div>
+					
+					<div class="alles backwaren">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/backware1.jpg" class="picture" >
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Körnerbrot</h3>
+								<p>Leckeres Brot für ein gesunden Start in den Tag! Gutes Körnerbrot auf eine sehr gesunde Art zu Leben.</p>
+								</div>
+					</div>	
+					
+					<div class="alles cocktail">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/cocktail2.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Mojito</h3>
+								<p>Basic Schritt für Schritt Anleitung einen gesünderen Mojito herzustellen </p>
+								</div>
+					</div>	
+					
+					<div class="alles backwaren">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/backware2.jpg" class="picture" >
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Healthy Croissan</h3>
+								<p>  Zuckerfreie Kalorienarmer Croissant</p>
+								</div>
+					</div>	
+					
+					<div class="alles snacks">
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/snack1.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Kleine Eierschnitte</h3>
+								<p>Für den kleinen Hunger zwischendurch ganz einfach selbst gemacht! Kleine Snackige Schnitte mit Ei innerhalb von 20 Minuten.</p>
+								</div>
+					</div>		
+									
+					<div class="alles smoothies">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/smoothie1.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Mango Smoothie</h3>
+								<p> erfrischender Smoothie für ein fittes Erlebnis. Ganz einfach mit frischen Mangos selbst zubereiten! </p>
+								</div>
+					</div>	
+					
+					<div class="alles cocktail">	
+						<div id="edibles">
+							<div class="rezepte-img">
+								<img src="Bilder/cocktail1.jpg" class="picture">
+							</div>
+						</div>
+								<div class="rezepte-content">
+								<h3> Zuckerfreier Früchte Cocktail</h3>
+								<p> Saufen aber jetzt ohne dich schlecht zu fühlen wegen dem ganzen Zucker. kannst sogar deine freunde einladen die sich darüber beschweren das sie zu viel Zucker futtern und ihnen sagen das die das auch trinken können</p>
+								</div>
+					</div>	
+					
+					</div>
+				
+				</div>
+			</div>	
+		</div>				
+			
+        <footer>
+            <div id="foo">
+                <div id="foo1"><a href="#">Kontakt</a></div>
+                <div id="foo2"><a href="#">Impressum</a></div>
+                <div id="foo3"><a href="#">Über uns</a></div>
+                <div id="foo4"><a href="#">Hilfe</a></div>
+                <div id="foo5"><a href="#">Einstellungen</a></div>
+            </div>
+        </footer> 
+		<script src="Kategorien.js"> 
+
+
+</script>
+</body>
+
+</html>
